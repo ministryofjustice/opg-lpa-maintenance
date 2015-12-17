@@ -1,6 +1,6 @@
 #LPA Site Under Maintenance
 
-This is the under maintenance page for LPA. It lives on its own server at **54.72.5.215**. Any domain pointing to that IP will return the maintenance page, but the SSL certificate is only valid for:
+This is the under maintenance page for LPA. It lives on its own server at **52.28.130.177**. Any domain pointing to that IP will return the maintenance page, but the SSL certificate is only valid for:
 - https://lastingpowerofattorney.service.gov.uk/
 - https://www.lastingpowerofattorney.service.gov.uk/
 
