@@ -6,6 +6,8 @@ RUN rm /app/public/index.html
 ADD  ./docker/content/lpa /app/public
 RUN  chown -R app /app
 
+ADD docker/nginx-app.conf.d/lpa.conf /etc/nginx/app.conf.d/
+
 WORKDIR /app/public
 USER app
 ENV  HOME /app
