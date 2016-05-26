@@ -1,7 +1,9 @@
 nginx-maintenance:
   build: .
   ports:
-  - 80:80
-  - 443:443
+    - 80:80
+    - 443:443
+  env_file:
+    - ./env.env
   environment:
-  - OPG_NGINX_SSL_FORCE_REDIRECT=1
+    - OPG_NGINX_SSL_FORCE_REDIRECT=1

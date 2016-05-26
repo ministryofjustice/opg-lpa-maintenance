@@ -1,0 +1,6 @@
+[template]
+src = "lpa_ca.crt.tmpl"
+dest = "/usr/local/share/ca-certificates/lpa_ca.crt"
+keys = [
+    "/opg/lpa/ssl",
+]
