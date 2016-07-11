@@ -1,4 +1,4 @@
-FROM registry.service.dsd.io/opguk/nginx:latest
+FROM registry.service.dsd.io/opguk/nginx:0.1.170
 
 RUN  apt-get update && apt-get autoclean && apt-get autoremove && rm -rf /var/lib/{apt,dpkg,cache,log}/ && rm -rf /tmp/* /var/tmp/*
 
