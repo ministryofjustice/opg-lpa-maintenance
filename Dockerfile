@@ -1,4 +1,4 @@
-FROM registry.service.opg.digital/opguk/nginx:0.1.199
+FROM registry.service.opg.digital/opguk/nginx:0.1.200
 
 RUN  apt-get update && apt-get autoclean && apt-get autoremove && rm -rf /var/lib/{apt,dpkg,cache,log}/ && rm -rf /tmp/* /var/tmp/*
 
